@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        SONARQUBE_SERVER = 'SonarQube'  // Define your SonarQube server ID as configured in Jenkins
-        SONARQUBE_PROJECT_KEY = 'your-project-key'  // Your SonarQube project key
-        SONARQUBE_PROJECT_NAME = 'your-project-name'  // Your SonarQube project name
+        SONARQUBE_SERVER = 'Sonarqube'  // Define your SonarQube server ID as configured in Jenkins
+        SONARQUBE_PROJECT_KEY = 'mynewprojforgit'  // Your SonarQube project key
+        SONARQUBE_PROJECT_NAME = 'mynewprojforgit'  // Your SonarQube project name
     }
 
     stages {
